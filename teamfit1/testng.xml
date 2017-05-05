@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My first test suite">
+  <test verbose="2" name="First test">
+     <groups> 
+      <run> 
+        <include name="method3"/>       
+       </run>
+    </groups> 
+  
+    <classes>
+     <!--   <class name="teamfit1.teamfit1.AppTest"/> -->
+      <class name="teamfit1.teamfit1.AppTest2">
+       <methods> 
+          <include name="clientRequestTft4"></include>
+        </methods>
+        </class>
+    </classes>
+  </test> <!-- First test -->
+</suite> <!-- My first test suite -->

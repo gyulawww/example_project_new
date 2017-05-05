@@ -1,0 +1,1 @@
+java -Dwebdriver.ie.driver=../web-drivers/IEDriverServer.exe -jar ../lib/selenium-server-standalone-2.44.0.jar -role webdriver -hub http://localhost:4444/grid/register -browser browserName=ie,platform=WINDOWS -port 5558

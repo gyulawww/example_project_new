@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My first test suite]">
+  <test name="First test(failed)">
+    <groups>
+      <run>
+        <include name="method1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="teamfit1.teamfit1.AppTest2">
+        <methods>
+          <include name="examplesRestAssured6"/>
+        </methods>
+      </class> <!-- teamfit1.teamfit1.AppTest2 -->
+    </classes>
+  </test> <!-- First test(failed) -->
+</suite> <!-- Failed suite [My first test suite] -->

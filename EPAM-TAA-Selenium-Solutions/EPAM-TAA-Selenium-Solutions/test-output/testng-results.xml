@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20525" started-at="2016-05-05T12:36:15Z" finished-at="2016-05-05T12:36:35Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="8578" started-at="2016-05-05T12:36:15Z" finished-at="2016-05-05T12:36:23Z">
+      <class name="com.epam.training.selenium.ex_3a.TestNGClass">
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:com.epam.training.selenium.ex_3a.TestNGClass@589838eb]" name="launchapp" is-config="true" duration-ms="6058" started-at="2016-05-05T14:36:15Z" finished-at="2016-05-05T14:36:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:com.epam.training.selenium.ex_3a.TestNGClass@589838eb]" name="calculatepercent" duration-ms="2146" started-at="2016-05-05T14:36:21Z" finished-at="2016-05-05T14:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatepercent -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.epam.training.selenium.ex_3a.TestNGClass@589838eb]" name="closeBrowser" is-config="true" duration-ms="363" started-at="2016-05-05T14:36:23Z" finished-at="2016-05-05T14:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.epam.training.selenium.ex_3a.TestNGClass -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="5563" started-at="2016-05-05T12:36:23Z" finished-at="2016-05-05T12:36:29Z">
+      <class name="com.epam.training.selenium.ex_3a.TestNGClass">
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:com.epam.training.selenium.ex_3a.TestNGClass@cb644e]" name="launchapp" is-config="true" duration-ms="3069" started-at="2016-05-05T14:36:23Z" finished-at="2016-05-05T14:36:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:com.epam.training.selenium.ex_3a.TestNGClass@cb644e]" name="calculatepercent" duration-ms="1753" started-at="2016-05-05T14:36:26Z" finished-at="2016-05-05T14:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatepercent -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.epam.training.selenium.ex_3a.TestNGClass@cb644e]" name="closeBrowser" is-config="true" duration-ms="739" started-at="2016-05-05T14:36:28Z" finished-at="2016-05-05T14:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.epam.training.selenium.ex_3a.TestNGClass -->
+    </test> <!-- ChromeTest -->
+    <test name="IETest" duration-ms="6357" started-at="2016-05-05T12:36:29Z" finished-at="2016-05-05T12:36:35Z">
+      <class name="com.epam.training.selenium.ex_3a.TestNGClass">
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:com.epam.training.selenium.ex_3a.TestNGClass@5702b3b1]" name="launchapp" is-config="true" duration-ms="2721" started-at="2016-05-05T14:36:29Z" finished-at="2016-05-05T14:36:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:com.epam.training.selenium.ex_3a.TestNGClass@5702b3b1]" name="calculatepercent" duration-ms="2939" started-at="2016-05-05T14:36:32Z" finished-at="2016-05-05T14:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatepercent -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.epam.training.selenium.ex_3a.TestNGClass@5702b3b1]" name="closeBrowser" is-config="true" duration-ms="694" started-at="2016-05-05T14:36:35Z" finished-at="2016-05-05T14:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.epam.training.selenium.ex_3a.TestNGClass -->
+    </test> <!-- IETest -->
+  </suite> <!-- Suite -->
+</testng-results>

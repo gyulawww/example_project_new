@@ -1,0 +1,5 @@
+[0427/131616:ERROR:process_reader_win.cc(141)] SuspendThread: Access is denied. (0x5)
+[0427/131616:ERROR:process_reader_win.cc(232)] ReadMemory at 0x35d1b4 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0427/131616:WARNING:process_snapshot_win.cc(96)] ReadMemory ExceptionInformation failed
+[0427/131616:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
+[0427/131616:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558

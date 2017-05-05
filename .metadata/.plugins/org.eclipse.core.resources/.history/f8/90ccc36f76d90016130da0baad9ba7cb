@@ -1,0 +1,16 @@
+package animal;
+
+import java.util.ArrayList;
+
+public class Arraylist {
+public static void main(String[] args) {
+	ArrayList array= new ArrayList();
+	array.add("Ablak");
+	array.add("Baba");
+	array.add("Cukor");
+	array.add("Baba");
+	array.add("Baba");
+	array.remove("Baba");  // A remove csak az elsőt veszi ki.
+	System.out.println(array);
+}
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Second test suite">
+  <test verbose="2" name="Second test">
+     <groups> 
+      <run> 
+        <include name="method2"/> 
+        <exclude name="method1"></exclude>      
+       </run>
+    </groups> 
+  
+    <classes>
+      <class name="teamfit1.teamfit1.AppTest"/> 
+      <class name="teamfit1.teamfit1.AppTest2"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="ie"/>
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.epam.training.selenium.ex_3a.TestNGClass">
+        <methods>
+          <include name="calculatepercent"/>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- com.epam.training.selenium.ex_3a.TestNGClass -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.epam.training.selenium.ex_3a.TestNGClass">
+        <methods>
+          <include name="calculatepercent"/>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- com.epam.training.selenium.ex_3a.TestNGClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test name="IETest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.epam.training.selenium.ex_3a.TestNGClass">
+        <methods>
+          <include name="calculatepercent"/>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- com.epam.training.selenium.ex_3a.TestNGClass -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

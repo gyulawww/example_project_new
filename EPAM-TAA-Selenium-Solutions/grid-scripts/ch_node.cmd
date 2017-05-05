@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver=../web-drivers/chromedriver.exe -jar ../lib/selenium-server-standalone-2.44.0.jar -role webdriver -hub  http://localhost:4444/grid/register -browser browserName=chrome,platform=WINDOWS -port 5557

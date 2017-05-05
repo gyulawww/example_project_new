@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Third test suite">
+  <test name="Third test">
+     <groups> 
+      <run> 
+        <include name="method2"/> 
+        <exclude name="method1"></exclude>      
+       </run>
+    </groups> 
+    <packages>
+       <package name="teamfit1.teamfit1"></package>
+    </packages>
+    <classes>
+      <class name="teamfit1.teamfit1.AppTest2">
+        <methods>
+           <exclude name="examplesRestAssured4"></exclude>
+        </methods>
+      </class>
+    </classes>
+  </test> 
+</suite> 
