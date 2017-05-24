@@ -1,8 +1,0 @@
-package exercise.exercise;
-
-public class AnimalbirdDriver {
-   static Animal a= new Animal();
-   public static void main(String[] args) {
-	System.out.println(a instanceof Fly);
-}
-}

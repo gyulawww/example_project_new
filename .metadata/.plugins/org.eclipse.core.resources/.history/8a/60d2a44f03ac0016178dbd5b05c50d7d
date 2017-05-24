@@ -1,9 +1,0 @@
-package exercise.exercise;
-
-public class AnimalbirdDriver {
-   static Animal a= new Bird();
-   public static void main(String[] args) {
-	System.out.println(a instanceof Fly);
-	// Itt az határozza meg az instanceof-ot hogy milyen class-al példányosítom
-}
-}
