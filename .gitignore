@@ -4,7 +4,7 @@
 /.idea
 /.project
 
-/test-output/
+/*/test-output/
 /logs/
 /felix-cache/
 /generated/
