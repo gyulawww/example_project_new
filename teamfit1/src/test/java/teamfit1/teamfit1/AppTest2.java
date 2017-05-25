@@ -115,17 +115,15 @@ public class AppTest2 {
 		Assert.assertTrue(dataNorway.get(0).containsKey("de")==true, "Translations of Norway hasn't got 'de' key");
 	}
 	
-	@Test(groups = "method5")
-	  public void clientRequestTft5(){
-		given().log().everything().
-		expect().
-		    statusCode(200).
-		    body("findAll { it.languages.contains('en')}.name",hasItems("Yemen") ).
-		    log().body().
-	    when().
-	      get("http://restcountries.eu/rest/v1/all");
-	        
-	         		
-	}
+//	@Test(groups = "method5")
+//	  public void clientRequestTft5(){
+//		given().log().everything().
+//		expect().
+//		    statusCode(200).
+//		    body("findAll { it.languages.contains('en')}.name",hasItems("Yemen") ).
+//		    log().body().
+//	    when().
+//	      get("http://restcountries.eu/rest/v1/all");	        	         		
+//	}
 	
 }

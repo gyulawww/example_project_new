@@ -144,8 +144,9 @@ public class AppTest{
     	System.out.println("Magyarorszag szomszedai: "+neighbours);
     }
     
-    @Test(groups="method4")
     @Parameters("countryName")
+    @Test(groups="method4")
+    
     // Irjuk ki az összes olyan országot, aminek a beadott ország a szomszédja.
     // Erőltetetten keressünk, hogy ő melyikben szerepel.
     // TestNG parameter átadás az xml-ből.
@@ -182,9 +183,9 @@ public class AppTest{
     	JSONArray respJson= new JSONArray(resp.asString());
     	for (int i=0;i<respJson.length();i++){
     		Integer tmp=12;
-    		if (!respJson.getJSONObject(i).getJSONArray("callingCodes").get(0).toString().equals("")){
-    			tmp =Integer.parseInt(respJson.getJSONObject(i).getJSONArray("callingCodes").get(0).toString());	
-    		}
+//    		if (!respJson.getJSONObject(i).getJSONArray("callingCodes").get(0).toString().equals("")){
+//    			tmp =Integer.parseInt(respJson.getJSONObject(i).getJSONArray("callingCodes").get(0).toString());	
+//    		}
     		if (tmp <10){
     		   System.out.print("Ország: "+respJson.getJSONObject(i).getString("name")+", ");
     		   System.out.print("Hívószám: "+respJson.getJSONObject(i).getJSONArray("callingCodes").get(0).toString());
